@@ -1,8 +1,8 @@
 # 🧩 8-Puzzle in C
 
-This project implements the classic **8-Puzzle**, where the goal is to arrange the numbers 1 through 8 in ascending order, leaving an empty space (0) in the last position.
+This project implements the classic **8-Puzzle**, where the goal is to arrange the numbers from 1 to 8 in ascending order, leaving an empty space (0) in the last position.
 
-The solution is entirely developed in **C**, with user-controlled movements in real time (W, A, S, D).
+The solution is entirely developed in **C**, with movements controlled by the user in real time (W, A, S, D).
 
 ---
 
@@ -113,9 +113,13 @@ The game ends when the board reaches:
 Upon solving the puzzle, the user receives:
 
 ``` Congratulations! You have completed the puzzle!
+
 ```
+
 ---
 
 ## 👤 Author
 
 **Felipe Salinas Caodaglio**
+
+---
