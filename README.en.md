@@ -1,28 +1,30 @@
+
+
+```markdown
+
+
+---
+
 # 🧩 8-Puzzle in C
 
-This project implements the classic **8-Puzzle**, where the goal is to arrange the numbers from 1 to 8 in ascending order, leaving an empty space (0) in the last position.
-
-The solution is entirely developed in **C**, with movements controlled by the user in real time (W, A, S, D).
+This project implements the classic **8-Puzzle game**, where the objective is to arrange the numbers from 1 to 8 in ascending order, leaving the empty space (0) in the last position.
+The solution is entirely developed in **C**, with real-time user-controlled movements (W, A, S, D).
 
 ---
 
 ## 🎮 Features
 
 * 🔄 **Automatic generation** of random boards
-* ✔️ Puzzle always guaranteed to be **solvable**
+* ✔️ Puzzle is always guaranteed to be **solvable**
 * 👀 Simple and clean console interface
 * 🎹 Movement using:
 
-* **W** → move piece up
-
-* **S** → move piece down
-
-* **A** → move piece left
-
-* **D** → move piece right
-
+  * **W** → move tile up
+  * **S** → move tile down
+  * **A** → move tile left
+  * **D** → move tile right
 * 🧠 Automatic completion check
-* 🖥️ Board re-rendering after each move
+* 🖥️ Board re-rendering after every move
 
 ---
 
@@ -31,9 +33,10 @@ The solution is entirely developed in **C**, with movements controlled by the us
 ```
 
 📦 8-puzzle-c
-├── main.c # Main file containing all the logic
-└── README.md # Documentation Project
+├── main.c        \# Main file containing all the logic
+└── README.en.md  \# Project documentation
 
+````
 
 ---
 
@@ -43,35 +46,37 @@ The solution is entirely developed in **C**, with movements controlled by the us
 
 ```bash
 gcc main.c -o puzzle
+````
 
-```
+2.  Execute:
 
-2. Run:
+<!-- end list -->
 
 ```bash
 ./puzzle
+```
 
-> Make sure you are using Windows or compile without the `conio.h` dependency if you are on Linux (I can adapt it if you want).
+> Ensure you are using Windows or compile without the `conio.h` dependency if you are on Linux (I can adapt if you wish).
 
----
+-----
 
-## 🧠 How the program works
+## 🧠 How the Program Works
 
 ### 🔹 1. Puzzle Generation
 
-The `generatePuzzle()` function randomly creates a **solvable** puzzle board, using shuffling and inversion checking.
+The `gerarPuzzle()` function randomly creates a **solvable** board using shuffling and inversion checking.
 
 ### 🔹 2. Movement
 
-The `fs()` function receives the user's command and swaps the neighboring piece with the empty space.
+The `fs()` function receives the user command and swaps the neighboring tile with the empty space.
 
 ### 🔹 3. Rendering
 
 The `printEstado()` function clears the screen and displays the formatted board.
 
-### 🔹 4. Winning Condition
+### 🔹 4. Win Condition
 
-The game ends when the board reaches:
+The game ends when the board achieves:
 
 ```
 1 2 3
@@ -79,47 +84,43 @@ The game ends when the board reaches:
 7 8 _
 ```
 
----
+-----
 
 ## 📘 Controls
 
 | Key | Action |
-
-| ----- | ----------------------------------- |
-
+| :---: | :--- |
 | **W** | Moves the empty space up |
-
 | **S** | Moves the empty space down |
-
 | **A** | Moves the empty space to the left |
-
 | **D** | Moves the empty space to the right |
 
----
+-----
 
 ## 🛠️ Main Functions
 
-* `printEstado()` – displays the puzzle board
-* `deepcopy()` – copies the puzzle state
-* `fs()` – executes the move
-* `completo()` – checks if the puzzle has been solved
-* `gerarPuzzle()` – creates a random puzzle board
-* `ehSolucionavel()` – ensures the puzzle has a solution
+  * `printEstado()` – displays the puzzle board
+  * `deepcopy()` – copies the puzzle state
+  * `fs()` – executes the move
+  * `completo()` – checks if the puzzle has been solved
+  * `gerarPuzzle()` – creates random board
+  * `ehSolucionavel()` – guarantees the puzzle has a solution
 
----
+-----
 
-## 🏁 Completion
+## 🏁 Finalization
 
 Upon solving the puzzle, the user receives:
 
-``` Congratulations! You have completed the puzzle!
-
+```
+Congratulations! You completed the puzzle!
 ```
 
----
+-----
 
 ## 👤 Author
 
 **Felipe Salinas Caodaglio**
 
----
+```
+
