@@ -110,6 +110,9 @@ Parabéns! Você completou o puzzle!
 
 
 ➡️ **([English Version](README.en.md))**
+
+
+
 ---
 
 ## 👤 Autor
