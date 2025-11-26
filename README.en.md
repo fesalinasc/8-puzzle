@@ -113,13 +113,9 @@ The game ends when the board reaches:
 Upon solving the puzzle, the user receives:
 
 ``` Congratulations! You have completed the puzzle!
-
 ```
-
 ---
 
 ## 👤 Author
 
 **Felipe Salinas Caodaglio**
-
----
