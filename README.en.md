@@ -1,8 +1,4 @@
 
-
-```markdown
-
-
 ---
 
 # 🧩 8-Puzzle in C
