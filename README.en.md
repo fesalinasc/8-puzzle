@@ -118,5 +118,4 @@ Congratulations! You completed the puzzle!
 
 **Felipe Salinas Caodaglio**
 
-```
 
