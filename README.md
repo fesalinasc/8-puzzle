@@ -115,6 +115,6 @@ Parabéns! Você completou o puzzle!
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autor
 
 **Felipe Salinas Caodaglio**
